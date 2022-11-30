@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css"/>
+        <title>Problem 2 - RxJs Countdown Timer</title>
+    </head>
+
+    <body>
+        <div class="mainContainer">
+            <header>
+                <h1>Countdown Timer Using RxJs</h1>
+            </header>
+
+            <div id="userTimeInput">
+                <div class = "digitInput">
+                    <input type="number" class="timeinputarea" id="hourInput" placeholder="h">
+                </div>
+
+                <div class="timeSeparator">
+                    <input class="colonDisplay" value=":" disabled>
+                </div>
+                
+                <div class = "digitInput">
+                    <input type="number" class="timeinputarea" id="minuteInput" placeholder="m">
+                </div>
+                
+                <div class="timeSeparator">
+                    <input class="colonDisplay" value=":" disabled>
+                </div>
+                
+                <div class = "digitInput">
+                    <input type="number" class="timeinputarea" id="secondInput" placeholder="s">
+                </div>
+            </div>
+
+            <div id="StartCountdown">
+                <button id="CountdownButton" onclick = "GetValues()">
+                    Start Countdown
+                </button>
+            </div>
+
+            <div id="DisplayCountdownTimer"></div>
+
+            <footer>
+                <p>C18423664 - Djibril Coulybaly</p>
+            </footer>
+        </div>
+        <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.3/dist/global/Rx.umd.js"></script>
+        <script src="Assets/JavaScript/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+/* Importing the font used in the web app */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,400&display=swap');
+
+
+html, body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+
+.mainContainer {
+    text-align: center;
+}
+
+
+#userTimeInput
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin: 0;
+    height: 5em;
+    width:100%;
+    background-color: #ced4da;
+}
+#userTimeInput div {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.digitInput {
+    width: 7em;
+}
+.timeSeparator {
+    width: 5%;
+}
+.timeinputarea, .colonDisplay {
+    font-size: 44pt;
+}
+.timeinputarea {
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: #e9ecef;
+    color: #c5c9cc;
+    border-radius: 5px;
+}
+.colonDisplay {
+    width: 100%;
+    color: #495057;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+
+#StartCountdown {
+    height: 5em;
+    width: 100%;
+    background-color: #ced4da;
+    padding-bottom: 3em;
+}
+#CountdownButton {
+    background-color: #e9ecef;
+    height: inherit;
+    border: none;
+    font-size: 2em;
+    padding: 20px;
+    color: #495057;
+    border-radius: 5px;
+}
+#ButtonText {
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+} 
+
+
+#DisplayCountdownTimer {
+    font-size: 10em;
+    background-color: #ededed;
+    color: #4f4f4f;
+}
+
+
+footer p {
+    font-size: 25px;
+}
